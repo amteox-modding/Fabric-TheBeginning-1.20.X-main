@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thebeginning:block/pale_slab"
+    },
+    "type=double": {
+      "model": "thebeginning:block/pale_planks"
+    },
+    "type=top": {
+      "model": "thebeginning:block/pale_slab_top"
+    }
+  }
+}

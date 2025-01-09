@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thebeginning:block/pale_log",
+    "side": "thebeginning:block/pale_log"
+  }
+}

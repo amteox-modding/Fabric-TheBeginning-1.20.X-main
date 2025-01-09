@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thebeginning:block/pale_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thebeginning:block/pale_log"
+    },
+    "axis=z": {
+      "model": "thebeginning:block/pale_log_horizontal",
+      "x": 90
+    }
+  }
+}

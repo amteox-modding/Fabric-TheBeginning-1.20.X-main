@@ -1,5 +1,35 @@
 {
 
+  "item.thebeginning.beginnium_dust": "Beginnium Dust",
+  "item.thebeginning.beginnium_ingot": "Beginnium Ingot",
+  "item.thebeginning.beginnium_shard": "Beginnium Shard",
+
+  "block.thebeginning.beginnium_block": "Block of Begginium",
+  "block.thebeginning.beginnium_ore": "Beginnium Ore",
+  "block.thebeginning.beginnium_magic_block": "Beginnium Magic Block",
+  "block.thebeginning.pale_log": "Pale Log",
+  "block.thebeginning.pale_wood": "Pale Wood",
+  "block.thebeginning.stripped_pale_log": "Stripped Pale Log",
+  "block.thebeginning.stripped_pale_wood": "Stripped Pale Wood",
+  "block.thebeginning.pale_planks": "Pale Planks",
+  "block.thebeginning.pale_stairs": "Pale Stairs",
+  "block.thebeginning.pale_slab": "Pale Slab",
+  "block.thebeginning.pale_button": "Pale Button",
+  "block.thebeginning.pale_pressure_plate": "Pale Pressure Plate",
+  "block.thebeginning.pale_fence": "Pale Fence",
+  "block.thebeginning.pale_fence_gate": "Pale Fence Gate",
+  "block.thebeginning.pale_door": "Pale Door",
+  "block.thebeginning.pale_trapdoor": "Pale Trapdoor",
+  "block.thebeginning.crushing_station_block": "Chrushing Station",
+  "block.thebeginning.pale_leaves": "Pale Leaves",
+  "block.thebeginning.pale_sapling": "Pale Sapling",
+  "block.thebeginning.pale_stem": "Pale Stem",
+  "block.thebeginning.pale_root": "Pale Root",
+  "block.thebeginning.pale_roots": "Pale Roots",
+  "block.thebeginning.pale_bush": "Pale Bush",
+  "block.thebeginning.pale_grass": "Pale Short Grass",
+  "block.thebeginning.end_magic_block": "End Magic Block",
+
 
 
   "itemgroup.blocks": "The Beginning Blocks",

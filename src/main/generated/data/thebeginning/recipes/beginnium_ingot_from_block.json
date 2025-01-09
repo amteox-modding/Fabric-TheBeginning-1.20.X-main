@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thebeginning:beginnium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "thebeginning:beginnium_ingot"
+  }
+}

@@ -10,9 +10,9 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
 
-    public static final Item BEGINNING_DUST = registerItem("beginning_dust", new Item(new FabricItemSettings()));
-    public static final Item BEGINNING_INGOT = registerItem("beginning_ingot", new Item(new FabricItemSettings()));
-    public static final Item BEGINNING_SHARD = registerItem("beginning_shard", new Item(new FabricItemSettings()));
+    public static final Item BEGINNING_DUST = registerItem("beginnium_dust", new Item(new FabricItemSettings()));
+    public static final Item BEGINNING_INGOT = registerItem("beginnium_ingot", new Item(new FabricItemSettings()));
+    public static final Item BEGINNING_SHARD = registerItem("beginnium_shard", new Item(new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item)

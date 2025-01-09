@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "thebeginning:beginnium_ore",
+    "thebeginning:beginnium_block",
+    "thebeginning:beginnium_magic_block"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thebeginning:block/stripped_pale_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thebeginning:block/stripped_pale_wood"
+    },
+    "axis=z": {
+      "model": "thebeginning:block/stripped_pale_wood",
+      "x": 90
+    }
+  }
+}

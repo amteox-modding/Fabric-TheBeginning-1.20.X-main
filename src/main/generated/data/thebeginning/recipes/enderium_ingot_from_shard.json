@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "thebeginning:beginnium_dust"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "S": {
+      "item": "thebeginning:beginnium_shard"
+    }
+  },
+  "pattern": [
+    "SDS",
+    "DPD",
+    "SDS"
+  ],
+  "result": {
+    "item": "thebeginning:beginnium_ingot"
+  },
+  "show_notification": true
+}

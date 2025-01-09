@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "thebeginning:pale_planks"
+    }
+  },
+  "pattern": [
+    "RR"
+  ],
+  "result": {
+    "item": "thebeginning:pale_pressure_plate"
+  },
+  "show_notification": true
+}
