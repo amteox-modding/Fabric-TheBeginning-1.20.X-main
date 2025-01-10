@@ -22,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_beginnium_shard",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_beginnium_shard"
     ]
   ],
   "rewards": {

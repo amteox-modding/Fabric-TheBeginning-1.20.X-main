@@ -3,6 +3,7 @@ package net.amteox.thebeginning;
 import net.amteox.thebeginning.block.ModBlocks;
 import net.amteox.thebeginning.item.ModItemGroups;
 import net.amteox.thebeginning.item.ModItems;
+import net.amteox.thebeginning.world.biome.ModBiomes;
 import net.amteox.thebeginning.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -42,6 +43,7 @@ public class TheBeginning implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALE_PRESSURE_PLATE, 5, 5);
 
 		ModWorldGeneration.generateModWorldGen();
+
 
 	}
 }

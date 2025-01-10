@@ -3,6 +3,7 @@ package net.amteox.thebeginning;
 import net.amteox.thebeginning.datagen.*;
 import net.amteox.thebeginning.world.ModConfiguredFeatures;
 import net.amteox.thebeginning.world.ModPlacedFeatures;
+import net.amteox.thebeginning.world.biome.ModBiomes;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -25,6 +26,7 @@ public class TheBeginningDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::bootstrap);
 
 	}
 }
