@@ -30,9 +30,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PALE_FENCE_GATE);
         addDrop(ModBlocks.PALE_DOOR, doorDrops(ModBlocks.PALE_DOOR));
         addDrop(ModBlocks.PALE_TRAPDOOR);
-//        addDrop(ModBlocks.PALE_SAPLING);
+        addDrop(ModBlocks.PALE_SAPLING);
 
-//        addDrop(ModBlocks.PALE_LEAVES, leavesDrops(ModBlocks.PALE_LEAVES, ModBlocks.PALE_SAPLING, 0.0625f));
+        addDrop(ModBlocks.PALE_LEAVES, leavesDrops(ModBlocks.PALE_LEAVES, ModBlocks.PALE_SAPLING, 0.0625f));
 
 
         addDrop(ModBlocks.BEGINNIUM_BLOCK);

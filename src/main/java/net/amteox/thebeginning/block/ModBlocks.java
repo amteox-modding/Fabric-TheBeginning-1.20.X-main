@@ -2,6 +2,7 @@ package net.amteox.thebeginning.block;
 
 import net.amteox.thebeginning.TheBeginning;
 import net.amteox.thebeginning.block.custom.MagicBlock;
+import net.amteox.thebeginning.world.tree.PaleSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -72,6 +73,9 @@ public class ModBlocks {
 
     public static final Block PALE_LEAVES = registerBlock("pale_leaves",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().nonOpaque().sounds(BlockSoundGroup.AZALEA_LEAVES)));
+
+    public static final Block PALE_SAPLING = registerBlock("pale_sapling",
+            new SaplingBlock(new PaleSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
 //    public static final Block PALE_GRASS = registerBlock("pale_grass",
 //            new PaleCrops(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS).nonOpaque().noCollision()));

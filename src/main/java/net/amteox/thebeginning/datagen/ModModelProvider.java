@@ -41,7 +41,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.PALE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PALE_TRAPDOOR);
 
-//        blockStateModelGenerator.registerTintableCross(ModBlocks.PALE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.PALE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

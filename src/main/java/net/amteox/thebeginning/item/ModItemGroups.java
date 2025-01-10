@@ -48,7 +48,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALE_FENCE_GATE);
                         entries.add(ModBlocks.PALE_DOOR);
                         entries.add(ModBlocks.PALE_TRAPDOOR);
-
+                        entries.add(ModBlocks.PALE_SAPLING);
                     }).build());
 
 
