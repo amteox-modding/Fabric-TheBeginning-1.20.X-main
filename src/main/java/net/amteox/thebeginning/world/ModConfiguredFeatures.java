@@ -32,6 +32,8 @@ public class ModConfiguredFeatures {
 
         register(context, BEGINNIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldBeginniumOres, 3));
 
+
+
         register(context, PALE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PALE_LOG),
                 new StraightTrunkPlacer(4, 5, 2),

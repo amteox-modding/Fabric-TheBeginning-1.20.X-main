@@ -1,5 +1,6 @@
-// 1.20.2	2025-01-10T14:13:44.006843627	The Beginning/World Gen
+// 1.20.2	2025-01-10T15:27:56.557104716	The Beginning/World Gen
 cdea0a07e4c76f30829e7138c63ab9a6f84a0031 data/thebeginning/worldgen/configured_feature/beginnium_ore.json
-19adc20fd06778850f62c54a9affbad53aa92625 data/thebeginning/worldgen/placed_feature/pale_placed.json
+349224ada4045a74de1dd0f5f1a4779efc2dc7d9 data/thebeginning/worldgen/placed_feature/pale_placed.json
+2d178140dd83b6fde3c7b00620cf0dfcda7b8100 data/thebeginning/worldgen/biome/pale_garden.json
 348284485c568ed74e93a3fb62da7dfd9c6d5361 data/thebeginning/worldgen/placed_feature/beginnium_ore_placed.json
 077fe74d405e52be548bd5fd9e512a75cd37b701 data/thebeginning/worldgen/configured_feature/pale.json

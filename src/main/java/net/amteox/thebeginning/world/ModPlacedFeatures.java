@@ -30,7 +30,7 @@ public class ModPlacedFeatures {
                 ModOrePlacement.modifiersWithCount(2, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
 
         register(context, PALE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PALE_KEY),
-                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1,0.1f, 2),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(4,0.1f, 2),
                         ModBlocks.PALE_SAPLING));
 
     }

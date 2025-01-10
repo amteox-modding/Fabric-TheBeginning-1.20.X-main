@@ -51,11 +51,9 @@ public class ModBiomes {
                         context.getRegistryLookup(RegistryKeys.CONFIGURED_CARVER));
 
         globalOverworldGeneration(biomeBuilder);
-        DefaultBiomeFeatures.addMossyRocks(biomeBuilder);
         DefaultBiomeFeatures.addDefaultOres(biomeBuilder);
-        DefaultBiomeFeatures.addExtraGoldOre(biomeBuilder);
 
-        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.PALE_PLACED_KEY);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
         DefaultBiomeFeatures.addForestFlowers(biomeBuilder);
         DefaultBiomeFeatures.addLargeFerns(biomeBuilder);
 
@@ -71,10 +69,10 @@ public class ModBiomes {
                 .effects((new BiomeEffects.Builder())
                         .waterColor(0x8e82a8)
                         .waterFogColor(0x8e82a8)
-                        .skyColor(0x886fbd)
-                        .grassColor(0xa6bfad)
-                        .foliageColor(0xa6bfad)
-                        .fogColor(0xbdadde)
+                        .skyColor(0x8e9aaf)
+                        .grassColor(0xfffafa)
+                        .foliageColor(0xfffafa)
+                        .fogColor(0xf8f8ff)
                         .moodSound(BiomeMoodSound.CAVE).build())
                 .build();
     }

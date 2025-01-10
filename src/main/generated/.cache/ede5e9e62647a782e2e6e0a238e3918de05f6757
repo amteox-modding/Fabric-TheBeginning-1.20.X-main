@@ -1,4 +1,4 @@
-// 1.20.2	2025-01-10T14:13:44.007459344	The Beginning/Model Definitions
+// 1.20.2	2025-01-10T15:27:56.557807522	The Beginning/Model Definitions
 e50078556c30fd86dac9077368056c621b24603c assets/thebeginning/models/item/pale_trapdoor.json
 4029ec7e75505e0f6da3032904af995d261a3a7a assets/thebeginning/blockstates/pale_slab.json
 000e1c97e87332d3570f6eb631df734f3ef7478e assets/thebeginning/models/block/pale_door_top_left.json
@@ -44,8 +44,8 @@ d947100e68d4b4142d4637c016b97d3f06a5ccbd assets/thebeginning/models/block/beginn
 d84a1e2972f96d29052f4ba15cb8e3426b137810 assets/thebeginning/models/block/pale_stairs.json
 4eeaa94b26f3ece0f9f89eb985bae6fa94c29c1a assets/thebeginning/models/item/beginnium_ingot.json
 1798a43d90f8ab9ab8c650c26a561e73c37705bf assets/thebeginning/models/block/beginnium_magic_block.json
-48f0d3fb1bffae234dcd832055a9f995e76dbf15 assets/thebeginning/models/item/beginnium_ore.json
 8b21f4847dad7b9cd7935793520d04040fdbdb6b assets/thebeginning/models/item/beginnium_block.json
+48f0d3fb1bffae234dcd832055a9f995e76dbf15 assets/thebeginning/models/item/beginnium_ore.json
 3a92b3b43789445747261c41f8598e3792b45ad3 assets/thebeginning/models/block/pale_stairs_inner.json
 24e9e2e9fc6e75729c81e4f46c0230fc3b577088 assets/thebeginning/blockstates/beginnium_ore.json
 8601adc34e3e80158f65938e2ff0ab80e17b7c08 assets/thebeginning/models/item/pale_stairs.json
@@ -54,8 +54,8 @@ d84a1e2972f96d29052f4ba15cb8e3426b137810 assets/thebeginning/models/block/pale_s
 8553d7e5157e412cf46f10fcc87673902161b1f1 assets/thebeginning/models/block/pale_door_bottom_right.json
 c9efd2821c1ae8b5c6784af2b1c3423e80ae3abd assets/thebeginning/blockstates/pale_sapling.json
 d763acd5b1cd5a3c5aa2906b5518b2464dfc9aee assets/thebeginning/models/block/stripped_pale_log_horizontal.json
-65701479f4a03839c1682d33a6c09c6384609480 assets/thebeginning/models/item/pale_button.json
 2b6e4df585a878cc28424f8f085a19cf77bf20f1 assets/thebeginning/models/block/pale_door_bottom_left_open.json
+65701479f4a03839c1682d33a6c09c6384609480 assets/thebeginning/models/item/pale_button.json
 c03178eb11c17a9844d3a8ef23c17e01b73db505 assets/thebeginning/models/block/pale_fence_post.json
 cbe517e2023668bcefc721f44cdb933a74994514 assets/thebeginning/models/block/pale_door_top_left_open.json
 77246121ba53716e8f135123e3e2509a840a4a38 assets/thebeginning/models/block/pale_log_horizontal.json

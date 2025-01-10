@@ -9,7 +9,6 @@ import net.minecraft.world.gen.surfacebuilder.MaterialRules;
 public class ModMaterialRules {
     private static final MaterialRules.MaterialRule DIRT = makeStateRule(Blocks.DIRT);
     private static final MaterialRules.MaterialRule GRASS_BLOCK = makeStateRule(Blocks.GRASS_BLOCK);
-    private static final MaterialRules.MaterialRule BEGINNIUM = makeStateRule(ModBlocks.BEGINNIUM_ORE);
 
     public static MaterialRules.MaterialRule makeRules() {
         MaterialRules.MaterialCondition isAtOrAboveWaterLevel = MaterialRules.water(-1, 0);

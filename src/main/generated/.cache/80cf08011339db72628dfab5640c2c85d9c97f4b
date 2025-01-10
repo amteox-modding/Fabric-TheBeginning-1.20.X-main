@@ -1,7 +1,7 @@
-// 1.20.2	2025-01-10T14:13:44.005432923	The Beginning/Tags for minecraft:block
+// 1.20.2	2025-01-10T15:27:56.555091536	The Beginning/Tags for minecraft:block
 23d913e61938b9b84950232b7bf8ba9a1fcfcb71 data/minecraft/tags/blocks/fence_gates.json
-ca0bf6baba0b68db2b530dc489b0e3e168ba3417 data/minecraft/tags/blocks/needs_diamond_tool.json
 fc3f152aeda5846fafa6369aa2ea02be739952b4 data/minecraft/tags/blocks/logs_that_burn.json
+ca0bf6baba0b68db2b530dc489b0e3e168ba3417 data/minecraft/tags/blocks/needs_diamond_tool.json
 d46a3a15f73b42d56715e728d35ecdf0287522a7 data/minecraft/tags/blocks/mineable/pickaxe.json
 4d76a64ed797a96b0b744601db3397d4fcfa7e3a data/minecraft/tags/blocks/wooden_fences.json
 86e7024b41075b6ed4e477e1a3d33710524090d8 data/minecraft/tags/blocks/mineable/hoe.json
