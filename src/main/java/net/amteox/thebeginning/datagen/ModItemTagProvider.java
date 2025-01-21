@@ -17,17 +17,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-
         getOrCreateTagBuilder(ItemTags.STONE_BRICKS)
                 .add(ModBlocks.BEGINNIUM_ORE.asItem())
                 .add(ModBlocks.BEGINNIUM_BLOCK.asItem())
-//                .add(ModBlocks.PALE_GRASS.asItem())
-//                .add(ModBlocks.PALE_BUSH.asItem())
-//                .add(ModBlocks.PALE_STEM.asItem())
-//                .add(ModBlocks.PALE_ROOT.asItem())
-//                .add(ModBlocks.PALE_ROOTS.asItem())
                 .add(ModBlocks.BEGINNIUM_MAGIC_BLOCK.asItem());
-
 
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.PALE_LOG.asItem())
@@ -43,6 +36,5 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.PALE_PLANKS.asItem());
-
     }
 }

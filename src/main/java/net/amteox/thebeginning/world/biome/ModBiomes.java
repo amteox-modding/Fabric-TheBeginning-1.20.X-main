@@ -1,10 +1,6 @@
 package net.amteox.thebeginning.world.biome;
 
 import net.amteox.thebeginning.TheBeginning;
-import net.amteox.thebeginning.world.ModPlacedFeatures;
-import net.minecraft.client.sound.MusicType;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -16,15 +12,14 @@ import net.minecraft.world.biome.GenerationSettings;
 import net.minecraft.world.biome.SpawnSettings;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
-import net.minecraft.world.gen.feature.PlacedFeatures;
 import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 
 public class ModBiomes {
+
     public static final RegistryKey<Biome> PALE_GARDEN = RegistryKey.of(RegistryKeys.BIOME,
             new Identifier(TheBeginning.MOD_ID, "pale_garden"));
 
-    public static void bootstrap(Registerable<Biome> context)
-    {
+    public static void bootstrap(Registerable<Biome> context) {
         context.register(PALE_GARDEN, PaleGarden(context));
     }
 
@@ -40,10 +35,6 @@ public class ModBiomes {
     public static Biome PaleGarden(Registerable<Biome> context) {
         SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
 
-
-        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.WOLF, 5, 4, 4));
-
-        DefaultBiomeFeatures.addFarmAnimals(spawnBuilder);
         DefaultBiomeFeatures.addBatsAndMonsters(spawnBuilder);
 
         GenerationSettings.LookupBackedBuilder biomeBuilder =
@@ -51,12 +42,10 @@ public class ModBiomes {
                         context.getRegistryLookup(RegistryKeys.CONFIGURED_CARVER));
 
         globalOverworldGeneration(biomeBuilder);
-        DefaultBiomeFeatures.addDefaultOres(biomeBuilder);
 
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
         DefaultBiomeFeatures.addForestFlowers(biomeBuilder);
         DefaultBiomeFeatures.addLargeFerns(biomeBuilder);
-
         DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
@@ -76,5 +65,4 @@ public class ModBiomes {
                         .moodSound(BiomeMoodSound.CAVE).build())
                 .build();
     }
-
 }

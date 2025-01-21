@@ -12,7 +12,6 @@ public class TheBeginningClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALE_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALE_TRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALE_LEAVES, RenderLayer.getCutout());
-
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PALE_SAPLING, RenderLayer.getCutout());
     }
 }

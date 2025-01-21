@@ -4,10 +4,8 @@ import net.amteox.thebeginning.TheBeginning;
 import net.amteox.thebeginning.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -15,20 +13,22 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-
     public static final ItemGroup ITEMS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(TheBeginning.MOD_ID, "items"), // Unique ID for the "items" group
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.items"))
+            new Identifier(TheBeginning.MOD_ID, "items"),
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemgroup.items"))
                     .icon(() -> new ItemStack(ModItems.BEGINNING_SHARD))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.BEGINNING_SHARD);
                         entries.add(ModItems.BEGINNING_DUST);
                         entries.add(ModItems.BEGINNING_INGOT);
-                    }).build());
+                    })
+                    .build());
 
     public static final ItemGroup BLOCKS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(TheBeginning.MOD_ID, "blocks"), // Unique ID for the "blocks" group
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.blocks"))
+            new Identifier(TheBeginning.MOD_ID, "blocks"),
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemgroup.blocks"))
                     .icon(() -> new ItemStack(ModBlocks.BEGINNIUM_BLOCK))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BEGINNIUM_BLOCK);
@@ -49,11 +49,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALE_DOOR);
                         entries.add(ModBlocks.PALE_TRAPDOOR);
                         entries.add(ModBlocks.PALE_SAPLING);
-                    }).build());
+                    })
+                    .build());
 
-
-
-    public static void registerItemGroups(){
+    public static void registerItemGroups() {
         TheBeginning.LOGGER.info("Registering Item groups for: " + TheBeginning.MOD_ID);
     }
 }

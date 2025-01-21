@@ -1,0 +1,36 @@
+{
+  "type": "thebeginning:beginningdim_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:floating_islands",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:plains",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "thebeginning:pale_garden",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

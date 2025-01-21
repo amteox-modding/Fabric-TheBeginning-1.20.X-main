@@ -9,6 +9,7 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 
 public class ModModelProvider extends FabricModelProvider {
+
     public ModModelProvider(FabricDataOutput output) {
         super(output);
     }
@@ -17,19 +18,13 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerLog(ModBlocks.PALE_LOG).log(ModBlocks.PALE_LOG).wood(ModBlocks.PALE_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_PALE_LOG).log(ModBlocks.STRIPPED_PALE_LOG).wood(ModBlocks.STRIPPED_PALE_WOOD);
+
         BlockStateModelGenerator.BlockTexturePool palePlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PALE_PLANKS);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BEGINNIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BEGINNIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BEGINNIUM_MAGIC_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALE_LEAVES);
-
-//        blockStateModelGenerator.registerTintableCross(ModBlocks.PALE_GRASS, BlockStateModelGenerator.TintType.NOT_TINTED);
-//        blockStateModelGenerator.registerTintableCross(ModBlocks.PALE_STEM, BlockStateModelGenerator.TintType.NOT_TINTED);
-//        blockStateModelGenerator.registerTintableCross(ModBlocks.PALE_ROOT, BlockStateModelGenerator.TintType.NOT_TINTED);
-//        blockStateModelGenerator.registerTintableCross(ModBlocks.PALE_ROOTS, BlockStateModelGenerator.TintType.NOT_TINTED);
-//        blockStateModelGenerator.registerTintableCross(ModBlocks.PALE_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED);
-
-
 
         palePlanksPool.stairs(ModBlocks.PALE_STAIRS);
         palePlanksPool.slab(ModBlocks.PALE_SLAB);

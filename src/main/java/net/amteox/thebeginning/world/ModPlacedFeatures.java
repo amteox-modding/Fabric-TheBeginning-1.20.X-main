@@ -35,8 +35,6 @@ public class ModPlacedFeatures {
 
     }
 
-
-
     public static RegistryKey<PlacedFeature> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(TheBeginning.MOD_ID, name));
     }

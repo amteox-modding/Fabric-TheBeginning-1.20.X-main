@@ -21,21 +21,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BEGINNIUM_BLOCK)
                 .add(ModBlocks.BEGINNIUM_MAGIC_BLOCK);
 
-
-
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.PALE_LEAVES);
-
-
-
-
-
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.PALE_LOG)
                 .add(ModBlocks.PALE_WOOD)
                 .add(ModBlocks.PALE_PLANKS);
-
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.PALE_LOG)
@@ -43,9 +35,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STRIPPED_PALE_LOG)
                 .add(ModBlocks.STRIPPED_PALE_WOOD);
 
-
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
                 .add(ModBlocks.PALE_FENCE);
+
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.PALE_FENCE_GATE);
 
