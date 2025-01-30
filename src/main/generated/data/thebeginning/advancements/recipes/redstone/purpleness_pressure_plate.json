@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purpleness_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thebeginning:purpleness_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thebeginning:purpleness_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_purpleness_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thebeginning:purpleness_pressure_plate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

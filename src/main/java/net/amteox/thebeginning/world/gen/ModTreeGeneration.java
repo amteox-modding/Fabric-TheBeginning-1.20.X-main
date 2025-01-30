@@ -11,5 +11,9 @@ public class ModTreeGeneration {
     {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.PALE_GARDEN),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.PALE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.YELLOWNESS_BIOME),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.YELLOWNESS_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.PURPLENESS_BIOME),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.PURPLENESS_PLACED_KEY);
     }
 }

@@ -31,5 +31,42 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PALE_LEAVES, leavesDrops(ModBlocks.PALE_LEAVES, ModBlocks.PALE_SAPLING, 0.0625f));
         addDrop(ModBlocks.BEGINNIUM_BLOCK);
         addDrop(ModBlocks.BEGINNIUM_ORE);
+
+
+
+        //YELLOWNESS
+
+        addDrop(ModBlocks.YELLOWNESS_LOG);
+        addDrop(ModBlocks.YELLOWNESS_WOOD);
+        addDrop(ModBlocks.STRIPPED_YELLOWNESS_LOG);
+        addDrop(ModBlocks.YELLOWNESS_PLANKS);
+        addDrop(ModBlocks.YELLOWNESS_STAIRS);
+        addDrop(ModBlocks.YELLOWNESS_SLAB, slabDrops(ModBlocks.YELLOWNESS_SLAB));
+        addDrop(ModBlocks.YELLOWNESS_BUTTON);
+        addDrop(ModBlocks.YELLOWNESS_PRESSURE_PLATE);
+        addDrop(ModBlocks.YELLOWNESS_FENCE);
+        addDrop(ModBlocks.YELLOWNESS_FENCE_GATE);
+        addDrop(ModBlocks.YELLOWNESS_DOOR, doorDrops(ModBlocks.YELLOWNESS_DOOR));
+        addDrop(ModBlocks.YELLOWNESS_TRAPDOOR);
+        addDrop(ModBlocks.YELLOWNESS_LEAVES, leavesDrops(ModBlocks.YELLOWNESS_LEAVES, ModBlocks.YELLOWNESS_SAPLING, 0.0625f));
+
+
+        //PURPLENESS
+
+        addDrop(ModBlocks.PURPLENESS_LOG);
+        addDrop(ModBlocks.PURPLENESS_WOOD);
+        addDrop(ModBlocks.STRIPPED_PURPLENESS_LOG);
+        addDrop(ModBlocks.PURPLENESS_PLANKS);
+        addDrop(ModBlocks.PURPLENESS_STAIRS);
+        addDrop(ModBlocks.PURPLENESS_SLAB, slabDrops(ModBlocks.PURPLENESS_SLAB));
+        addDrop(ModBlocks.PURPLENESS_BUTTON);
+        addDrop(ModBlocks.PURPLENESS_PRESSURE_PLATE);
+        addDrop(ModBlocks.PURPLENESS_FENCE);
+        addDrop(ModBlocks.PURPLENESS_FENCE_GATE);
+        addDrop(ModBlocks.PURPLENESS_DOOR, doorDrops(ModBlocks.PURPLENESS_DOOR));
+        addDrop(ModBlocks.PURPLENESS_TRAPDOOR);
+        addDrop(ModBlocks.PURPLENESS_LEAVES, leavesDrops(ModBlocks.PURPLENESS_LEAVES, ModBlocks.PURPLENESS_SAPLING, 0.0625f));
+
+
     }
 }

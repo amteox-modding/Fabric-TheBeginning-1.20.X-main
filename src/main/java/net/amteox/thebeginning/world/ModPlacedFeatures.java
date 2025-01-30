@@ -23,15 +23,25 @@ public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> BEGINNIUM_ORE_PLACED_KEY = registerKey("beginnium_ore_placed");
     public static final RegistryKey<PlacedFeature> PALE_PLACED_KEY = registerKey("pale_placed");
+    public static final RegistryKey<PlacedFeature> YELLOWNESS_PLACED_KEY = registerKey("yellowness_placed");
+    public static final RegistryKey<PlacedFeature> PURPLENESS_PLACED_KEY = registerKey("purpleness_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context){
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
         register(context, BEGINNIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BEGINNIUM_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(2, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
 
         register(context, PALE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PALE_KEY),
-                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(4,0.1f, 2),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(10,1f, 6),
                         ModBlocks.PALE_SAPLING));
+
+        register(context, YELLOWNESS_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.YELLOWNESS_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(11,1f, 7),
+                        ModBlocks.YELLOWNESS_SAPLING));
+
+        register(context, PURPLENESS_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PURPLENESS_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(13,1f, 8),
+                        ModBlocks.PURPLENESS_SAPLING));
 
     }
 

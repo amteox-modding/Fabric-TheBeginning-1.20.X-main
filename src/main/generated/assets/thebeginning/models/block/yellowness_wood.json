@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thebeginning:block/yellowness_log",
+    "side": "thebeginning:block/yellowness_log"
+  }
+}

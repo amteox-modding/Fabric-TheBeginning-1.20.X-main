@@ -22,6 +22,16 @@ public class ModItemGroups {
                         entries.add(ModItems.BEGINNING_SHARD);
                         entries.add(ModItems.BEGINNING_DUST);
                         entries.add(ModItems.BEGINNING_INGOT);
+                        entries.add(ModItems.PALE_SIGN);
+                        entries.add(ModItems.HANGING_PALE_SIGN);
+                        entries.add(ModItems.PALE_BOAT);
+                        entries.add(ModItems.PALE_CHEST_BOAT);
+                        //YELLOWNESS
+                        entries.add(ModItems.YELLOWNESS_SIGN);
+                        entries.add(ModItems.HANGING_YELLOWNESS_SIGN);
+                        entries.add(ModItems.YELLOWNESS_BOAT);
+                        entries.add(ModItems.YELLOWNESS_CHEST_BOAT);
+
                     })
                     .build());
 
@@ -49,6 +59,41 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALE_DOOR);
                         entries.add(ModBlocks.PALE_TRAPDOOR);
                         entries.add(ModBlocks.PALE_SAPLING);
+
+                        //Yellowness
+                        entries.add(ModBlocks.YELLOWNESS_LOG);
+                        entries.add(ModBlocks.YELLOWNESS_WOOD);
+                        entries.add(ModBlocks.YELLOWNESS_PLANKS);
+                        entries.add(ModBlocks.STRIPPED_YELLOWNESS_LOG);
+                        entries.add(ModBlocks.STRIPPED_YELLOWNESS_WOOD);
+                        entries.add(ModBlocks.YELLOWNESS_LEAVES);
+                        entries.add(ModBlocks.YELLOWNESS_STAIRS);
+                        entries.add(ModBlocks.YELLOWNESS_SLAB);
+                        entries.add(ModBlocks.YELLOWNESS_BUTTON);
+                        entries.add(ModBlocks.YELLOWNESS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.YELLOWNESS_FENCE);
+                        entries.add(ModBlocks.YELLOWNESS_FENCE_GATE);
+                        entries.add(ModBlocks.YELLOWNESS_DOOR);
+                        entries.add(ModBlocks.YELLOWNESS_TRAPDOOR);
+                        entries.add(ModBlocks.YELLOWNESS_SAPLING);
+
+                        //Purpleness
+
+                        entries.add(ModBlocks.PURPLENESS_LOG);
+                        entries.add(ModBlocks.PURPLENESS_WOOD);
+                        entries.add(ModBlocks.PURPLENESS_PLANKS);
+                        entries.add(ModBlocks.STRIPPED_PURPLENESS_LOG);
+                        entries.add(ModBlocks.STRIPPED_PURPLENESS_WOOD);
+                        entries.add(ModBlocks.PURPLENESS_LEAVES);
+                        entries.add(ModBlocks.PURPLENESS_STAIRS);
+                        entries.add(ModBlocks.PURPLENESS_SLAB);
+                        entries.add(ModBlocks.PURPLENESS_BUTTON);
+                        entries.add(ModBlocks.PURPLENESS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PURPLENESS_FENCE);
+                        entries.add(ModBlocks.PURPLENESS_FENCE_GATE);
+                        entries.add(ModBlocks.PURPLENESS_DOOR);
+                        entries.add(ModBlocks.PURPLENESS_TRAPDOOR);
+                        entries.add(ModBlocks.PURPLENESS_SAPLING);
                     })
                     .build());
 

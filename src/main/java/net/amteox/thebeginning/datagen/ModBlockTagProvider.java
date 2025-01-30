@@ -16,6 +16,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.BEGINNIUM_ORE)
                 .add(ModBlocks.BEGINNIUM_BLOCK)
@@ -44,6 +45,51 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.BEGINNIUM_BLOCK)
                 .add(ModBlocks.BEGINNIUM_ORE);
+
+
+
+        //PURPLENESS
+
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(ModBlocks.PURPLENESS_LEAVES);
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.PURPLENESS_LOG)
+                .add(ModBlocks.PURPLENESS_WOOD)
+                .add(ModBlocks.PURPLENESS_PLANKS);
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.PURPLENESS_LOG)
+                .add(ModBlocks.PURPLENESS_WOOD)
+                .add(ModBlocks.STRIPPED_PURPLENESS_LOG)
+                .add(ModBlocks.STRIPPED_PURPLENESS_WOOD);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.PURPLENESS_FENCE);
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.PURPLENESS_FENCE_GATE);
+
+
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(ModBlocks.PURPLENESS_LEAVES);
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.PURPLENESS_LOG)
+                .add(ModBlocks.PURPLENESS_WOOD)
+                .add(ModBlocks.PURPLENESS_PLANKS);
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.PURPLENESS_LOG)
+                .add(ModBlocks.PURPLENESS_WOOD)
+                .add(ModBlocks.STRIPPED_PURPLENESS_LOG)
+                .add(ModBlocks.STRIPPED_PURPLENESS_WOOD);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.PURPLENESS_FENCE);
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.PURPLENESS_FENCE_GATE);
 
     }
 }

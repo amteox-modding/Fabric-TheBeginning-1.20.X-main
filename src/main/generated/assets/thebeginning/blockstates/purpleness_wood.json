@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "thebeginning:block/purpleness_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "thebeginning:block/purpleness_wood"
+    },
+    "axis=z": {
+      "model": "thebeginning:block/purpleness_wood",
+      "x": 90
+    }
+  }
+}

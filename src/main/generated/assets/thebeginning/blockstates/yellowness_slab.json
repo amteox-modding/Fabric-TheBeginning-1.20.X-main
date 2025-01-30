@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thebeginning:block/yellowness_slab"
+    },
+    "type=double": {
+      "model": "thebeginning:block/yellowness_planks"
+    },
+    "type=top": {
+      "model": "thebeginning:block/yellowness_slab_top"
+    }
+  }
+}

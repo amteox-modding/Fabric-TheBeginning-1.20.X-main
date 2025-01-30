@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "thebeginning:block/purpleness_planks",
+    "side": "thebeginning:block/purpleness_planks",
+    "top": "thebeginning:block/purpleness_planks"
+  }
+}

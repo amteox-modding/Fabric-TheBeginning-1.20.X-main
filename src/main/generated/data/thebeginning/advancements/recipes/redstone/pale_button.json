@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_beginnium_shard": {
+    "has_pale_planks": {
       "conditions": {
         "items": [
           {
             "items": [
-              "thebeginning:beginnium_shard"
+              "thebeginning:pale_planks"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "thebeginning:enderium_ingot_from_shard"
+        "recipe": "thebeginning:pale_button"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_beginnium_shard"
+      "has_pale_planks"
     ]
   ],
   "rewards": {
     "recipes": [
-      "thebeginning:enderium_ingot_from_shard"
+      "thebeginning:pale_button"
     ]
   },
   "sends_telemetry_event": false

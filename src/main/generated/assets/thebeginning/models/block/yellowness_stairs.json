@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "thebeginning:block/yellowness_planks",
+    "side": "thebeginning:block/yellowness_planks",
+    "top": "thebeginning:block/yellowness_planks"
+  }
+}

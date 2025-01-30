@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thebeginning:block/purpleness_slab"
+    },
+    "type=double": {
+      "model": "thebeginning:block/purpleness_planks"
+    },
+    "type=top": {
+      "model": "thebeginning:block/purpleness_slab_top"
+    }
+  }
+}

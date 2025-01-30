@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "thebeginning:yellowness_planks"
+    }
+  ],
+  "result": {
+    "item": "thebeginning:yellowness_button"
+  }
+}

@@ -26,7 +26,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PALE_LOG.asItem())
                 .add(ModBlocks.PALE_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_PALE_LOG.asItem())
-                .add(ModBlocks.STRIPPED_PALE_WOOD.asItem());
+                .add(ModBlocks.STRIPPED_PALE_WOOD.asItem())
+                .add(ModBlocks.YELLOWNESS_LOG.asItem())
+                .add(ModBlocks.YELLOWNESS_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_YELLOWNESS_LOG.asItem())
+                .add(ModBlocks.STRIPPED_YELLOWNESS_WOOD.asItem())
+                .add(ModBlocks.PURPLENESS_LOG.asItem())
+                .add(ModBlocks.PURPLENESS_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PURPLENESS_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PURPLENESS_WOOD.asItem());
 
         getOrCreateTagBuilder(ItemTags.WOOL)
                 .add(ModItems.BEGINNING_INGOT)
@@ -35,6 +43,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PALE_LEAVES.asItem());
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
-                .add(ModBlocks.PALE_PLANKS.asItem());
+                .add(ModBlocks.PALE_PLANKS.asItem())
+                .add(ModBlocks.YELLOWNESS_PLANKS.asItem())
+                .add(ModBlocks.PURPLENESS_PLANKS.asItem());
     }
 }

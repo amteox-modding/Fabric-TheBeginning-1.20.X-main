@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "thebeginning:pale_planks"
+    "thebeginning:pale_planks",
+    "thebeginning:yellowness_planks",
+    "thebeginning:purpleness_planks"
   ]
 }

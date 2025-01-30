@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "thebeginning:block/purpleness_door_bottom",
+    "top": "thebeginning:block/purpleness_door_top"
+  }
+}

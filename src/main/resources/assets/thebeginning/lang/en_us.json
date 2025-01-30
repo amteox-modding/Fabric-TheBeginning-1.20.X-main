@@ -1,12 +1,12 @@
 {
-
   "item.thebeginning.beginnium_dust": "Beginnium Dust",
   "item.thebeginning.beginnium_ingot": "Beginnium Ingot",
   "item.thebeginning.beginnium_shard": "Beginnium Shard",
 
-  "block.thebeginning.beginnium_block": "Block of Begginium",
+  "block.thebeginning.beginnium_block": "Block of Beginnium",
   "block.thebeginning.beginnium_ore": "Beginnium Ore",
   "block.thebeginning.beginnium_magic_block": "Beginnium Magic Block",
+  
   "block.thebeginning.pale_log": "Pale Log",
   "block.thebeginning.pale_wood": "Pale Wood",
   "block.thebeginning.stripped_pale_log": "Stripped Pale Log",
@@ -20,7 +20,6 @@
   "block.thebeginning.pale_fence_gate": "Pale Fence Gate",
   "block.thebeginning.pale_door": "Pale Door",
   "block.thebeginning.pale_trapdoor": "Pale Trapdoor",
-  "block.thebeginning.crushing_station_block": "Chrushing Station",
   "block.thebeginning.pale_leaves": "Pale Leaves",
   "block.thebeginning.pale_sapling": "Pale Sapling",
   "block.thebeginning.pale_stem": "Pale Stem",
@@ -29,6 +28,81 @@
   "block.thebeginning.pale_bush": "Pale Bush",
   "block.thebeginning.pale_grass": "Pale Short Grass",
   "block.thebeginning.end_magic_block": "End Magic Block",
+
+  "block.thebeginning.pale_standing_sign": "Pale Sign",
+  "block.thebeginning.pale_wall_sign": "Pale Wall Sign",
+
+  "block.thebeginning.pale_hanging_sign": "Pale Hanging Sign",
+  "block.thebeginning.pale_wall_hanging_sign": "Pale Wall Hanging Sign",
+
+  "item.thebeginning.pale_boat": "Pale Boat",
+  "item.thebeginning.pale_chest_boat": "Pale Chest Boat",
+
+
+
+
+  "block.thebeginning.yellowness_log": "Yellowness Log",
+  "block.thebeginning.yellowness_wood": "Yellowness Wood",
+  "block.thebeginning.stripped_yellowness_log": "Stripped Yellowness Log",
+  "block.thebeginning.stripped_yellowness_wood": "Stripped Yellowness Wood",
+  "block.thebeginning.yellowness_planks": "Yellowness Planks",
+  "block.thebeginning.yellowness_stairs": "Yellowness Stairs",
+  "block.thebeginning.yellowness_slab": "Yellowness Slab",
+  "block.thebeginning.yellowness_button": "Yellowness Button",
+  "block.thebeginning.yellowness_pressure_plate": "Yellowness Pressure Plate",
+  "block.thebeginning.yellowness_fence": "Yellowness Fence",
+  "block.thebeginning.yellowness_fence_gate": "Yellowness Fence Gate",
+  "block.thebeginning.yellowness_door": "Yellowness Door",
+  "block.thebeginning.yellowness_trapdoor": "Yellowness Trapdoor",
+  "block.thebeginning.yellowness_leaves": "Yellowness Leaves",
+  "block.thebeginning.yellowness_sapling": "Yellowness Sapling",
+  "block.thebeginning.yellowness_stem": "Yellowness Stem",
+  "block.thebeginning.yellowness_root": "Yellowness Root",
+  "block.thebeginning.yellowness_roots": "Yellowness Roots",
+  "block.thebeginning.yellowness_bush": "Yellowness Bush",
+  "block.thebeginning.yellowness_grass": "Yellowness Short Grass",
+
+  "block.thebeginning.yellowness_standing_sign": "Yellowness Sign",
+  "block.thebeginning.yellowness_wall_sign": "Yellowness Wall Sign",
+
+  "block.thebeginning.yellowness_hanging_sign": "Yellowness Hanging Sign",
+  "block.thebeginning.yellowness_wall_hanging_sign": "Yellowness Wall Hanging Sign",
+
+  "item.thebeginning.yellowness_boat": "Yellowness Boat",
+  "item.thebeginning.yellowness_chest_boat": "Yellowness Chest Boat",
+
+
+
+  "block.thebeginning.purpleness_log": "Purpleness Log",
+  "block.thebeginning.purpleness_wood": "Purpleness Wood",
+  "block.thebeginning.stripped_purpleness_log": "Stripped Purpleness Log",
+  "block.thebeginning.stripped_purpleness_wood": "Stripped Purpleness Wood",
+  "block.thebeginning.purpleness_planks": "Purpleness Planks",
+  "block.thebeginning.purpleness_stairs": "Purpleness Stairs",
+  "block.thebeginning.purpleness_slab": "Purpleness Slab",
+  "block.thebeginning.purpleness_button": "Purpleness Button",
+  "block.thebeginning.purpleness_pressure_plate": "Purpleness Pressure Plate",
+  "block.thebeginning.purpleness_fence": "Purpleness Fence",
+  "block.thebeginning.purpleness_fence_gate": "Purpleness Fence Gate",
+  "block.thebeginning.purpleness_door": "Purpleness Door",
+  "block.thebeginning.purpleness_trapdoor": "Purpleness Trapdoor",
+  "block.thebeginning.purpleness_leaves": "Purpleness Leaves",
+  "block.thebeginning.purpleness_sapling": "Purpleness Sapling",
+  "block.thebeginning.purpleness_stem": "Purpleness Stem",
+  "block.thebeginning.purpleness_root": "Purpleness Root",
+  "block.thebeginning.purpleness_roots": "Purpleness Roots",
+  "block.thebeginning.purpleness_bush": "Purpleness Bush",
+  "block.thebeginning.purpleness_grass": "Purpleness Short Grass",
+
+  "block.thebeginning.purpleness_standing_sign": "Purpleness Sign",
+  "block.thebeginning.purpleness_wall_sign": "Purpleness Wall Sign",
+
+  "block.thebeginning.purpleness_hanging_sign": "Purpleness Hanging Sign",
+  "block.thebeginning.purpleness_wall_hanging_sign": "Purpleness Wall Hanging Sign",
+
+  "item.thebeginning.purpleness_boat": "Purpleness Boat",
+  "item.thebeginning.purpleness_chest_boat": "Purpleness Chest Boat",
+
 
 
 
