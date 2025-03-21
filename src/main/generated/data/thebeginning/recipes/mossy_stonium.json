@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "thebeginning:stonium"
+    },
+    "X": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "pattern": [
+    "RX"
+  ],
+  "result": {
+    "item": "thebeginning:mossy_stonium"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thebeginning:block/stonium_bricks_slab"
+    },
+    "type=double": {
+      "model": "thebeginning:block/stonium_bricks"
+    },
+    "type=top": {
+      "model": "thebeginning:block/stonium_bricks_slab_top"
+    }
+  }
+}

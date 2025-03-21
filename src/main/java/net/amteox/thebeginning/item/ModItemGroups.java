@@ -32,6 +32,12 @@ public class ModItemGroups {
                         entries.add(ModItems.YELLOWNESS_BOAT);
                         entries.add(ModItems.YELLOWNESS_CHEST_BOAT);
 
+                        //PURPLENESS
+                        entries.add(ModItems.PURPLENESS_SIGN);
+                        entries.add(ModItems.HANGING_PURPLENESS_SIGN);
+                        entries.add(ModItems.PURPLENESS_BOAT);
+                        entries.add(ModItems.PURPLENESS_CHEST_BOAT);
+
                     })
                     .build());
 
@@ -94,6 +100,35 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURPLENESS_DOOR);
                         entries.add(ModBlocks.PURPLENESS_TRAPDOOR);
                         entries.add(ModBlocks.PURPLENESS_SAPLING);
+
+                        //STONIUM
+                        entries.add(ModBlocks.STONIUM);
+                        entries.add(ModBlocks.STONIUM_STAIRS);
+                        entries.add(ModBlocks.STONIUM_SLAB);
+                        entries.add(ModBlocks.STONIUM_BUTTON);
+                        entries.add(ModBlocks.STONIUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.STONIUM_WALL);
+
+                        entries.add(ModBlocks.MOSSY_STONIUM);
+                        entries.add(ModBlocks.MOSSY_STONIUM_STAIRS);
+                        entries.add(ModBlocks.MOSSY_STONIUM_SLAB);
+                        entries.add(ModBlocks.MOSSY_STONIUM_BUTTON);
+                        entries.add(ModBlocks.MOSSY_STONIUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MOSSY_STONIUM_WALL);
+
+                        entries.add(ModBlocks.STONIUM_BRICKS);
+                        entries.add(ModBlocks.STONIUM_BRICKS_STAIRS);
+                        entries.add(ModBlocks.STONIUM_BRICKS_SLAB);
+                        entries.add(ModBlocks.STONIUM_BRICKS_BUTTON);
+                        entries.add(ModBlocks.STONIUM_BRICKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.STONIUM_BRICKS_WALL);
+
+                        entries.add(ModBlocks.MOSSY_STONIUM_BRICKS);
+                        entries.add(ModBlocks.MOSSY_STONIUM_BRICKS_STAIRS);
+                        entries.add(ModBlocks.MOSSY_STONIUM_BRICKS_SLAB);
+                        entries.add(ModBlocks.MOSSY_STONIUM_BRICKS_BUTTON);
+                        entries.add(ModBlocks.MOSSY_STONIUM_BRICKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MOSSY_STONIUM_BRICKS_WALL);
                     })
                     .build());
 

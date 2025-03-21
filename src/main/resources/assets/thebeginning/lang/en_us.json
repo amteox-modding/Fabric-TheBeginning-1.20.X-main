@@ -105,6 +105,35 @@
 
 
 
+  "block.thebeginning.stonium": "Stonium",
+  "block.thebeginning.stonium_stairs": "Stonium Stairs",
+  "block.thebeginning.stonium_slab": "Stonium Slab",
+  "block.thebeginning.stonium_button": "Stonium Button",
+  "block.thebeginning.stonium_pressure_plate": "Stonium Pressure Plate",
+  "block.thebeginning.stonium_wall": "Stonium Wall",
+
+  "block.thebeginning.stonium_bricks": "Stonium Bricks",
+  "block.thebeginning.stonium_bricks_stairs": "Stonium Bricks Stairs",
+  "block.thebeginning.stonium_bricks_slab": "Stonium Bricks Slab",
+  "block.thebeginning.stonium_bricks_button": "Stonium Bricks Button",
+  "block.thebeginning.stonium_bricks_pressure_plate": "Stonium Bricks Pressure Plate",
+  "block.thebeginning.stonium_bricks_wall": "Stonium Bricks Wall",
+
+  "block.thebeginning.mossy_stonium": "Mossy Stonium",
+  "block.thebeginning.mossy_stonium_stairs": "Mossy Stonium Stairs",
+  "block.thebeginning.mossy_stonium_slab": "Mossy Stonium Slab",
+  "block.thebeginning.mossy_stonium_button": "Mossy Stonium Button",
+  "block.thebeginning.mossy_stonium_pressure_plate": "Mossy Stonium Pressure Plate",
+  "block.thebeginning.mossy_stonium_wall": "Mossy Stonium Wall",
+
+  "block.thebeginning.mossy_stonium_bricks": "Mossy Stonium Bricks",
+  "block.thebeginning.mossy_stonium_bricks_stairs": "Mossy Stonium Bricks Stairs",
+  "block.thebeginning.mossy_stonium_bricks_slab": "Mossy Stonium Bricks Slab",
+  "block.thebeginning.mossy_stonium_bricks_button": "Mossy Stonium Bricks Button",
+  "block.thebeginning.mossy_stonium_bricks_pressure_plate": "Mossy Stonium Bricks Pressure Plate",
+  "block.thebeginning.mossy_stonium_bricks_wall": "Mossy Stonium Bricks Wall",
+
+
 
   "itemgroup.blocks": "The Beginning Blocks",
   "itemgroup.items": "The Beginning Items"

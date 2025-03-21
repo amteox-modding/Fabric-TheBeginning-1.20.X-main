@@ -21,5 +21,17 @@ public class ModOreGeneration {
                 GenerationStep.Feature.UNDERGROUND_ORES, // The step where ore generation occurs
                 ModPlacedFeatures.BEGINNIUM_ORE_PLACED_KEY // The feature key for ore generation
         );
+
+        BiomeModifications.addFeature(
+                BiomeSelectors.includeByKey(ModBiomes.YELLOWNESS_BIOME), // Replace PLAINS with a biome in your custom dimension
+                GenerationStep.Feature.UNDERGROUND_ORES, // The step where ore generation occurs
+                ModPlacedFeatures.BEGINNIUM_ORE_PLACED_KEY // The feature key for ore generation
+        );
+
+        BiomeModifications.addFeature(
+                BiomeSelectors.includeByKey(ModBiomes.PURPLENESS_BIOME), // Replace PLAINS with a biome in your custom dimension
+                GenerationStep.Feature.UNDERGROUND_ORES, // The step where ore generation occurs
+                ModPlacedFeatures.BEGINNIUM_ORE_PLACED_KEY // The feature key for ore generation
+        );
     }
 }

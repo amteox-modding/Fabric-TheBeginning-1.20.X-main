@@ -3,6 +3,30 @@
   "values": [
     "thebeginning:beginnium_ore",
     "thebeginning:beginnium_block",
-    "thebeginning:beginnium_magic_block"
+    "thebeginning:beginnium_magic_block",
+    "thebeginning:stonium",
+    "thebeginning:mossy_stonium",
+    "thebeginning:stonium_bricks",
+    "thebeginning:mossy_stonium_bricks",
+    "thebeginning:stonium_stairs",
+    "thebeginning:stonium_slab",
+    "thebeginning:stonium_button",
+    "thebeginning:stonium_pressure_plate",
+    "thebeginning:stonium_wall",
+    "thebeginning:mossy_stonium_stairs",
+    "thebeginning:mossy_stonium_slab",
+    "thebeginning:mossy_stonium_button",
+    "thebeginning:mossy_stonium_pressure_plate",
+    "thebeginning:mossy_stonium_wall",
+    "thebeginning:stonium_bricks_stairs",
+    "thebeginning:stonium_bricks_slab",
+    "thebeginning:stonium_bricks_button",
+    "thebeginning:stonium_bricks_pressure_plate",
+    "thebeginning:stonium_bricks_wall",
+    "thebeginning:mossy_stonium_bricks_stairs",
+    "thebeginning:mossy_stonium_bricks_slab",
+    "thebeginning:mossy_stonium_bricks_button",
+    "thebeginning:mossy_stonium_bricks_pressure_plate",
+    "thebeginning:mossy_stonium_bricks_wall"
   ]
 }

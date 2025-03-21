@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "thebeginning:mossy_stonium"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "item": "thebeginning:mossy_stonium_wall"
+  },
+  "show_notification": true
+}

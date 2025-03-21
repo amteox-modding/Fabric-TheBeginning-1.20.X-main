@@ -82,8 +82,38 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.PURPLENESS_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
+        //STONIUM
+
+        BlockStateModelGenerator.BlockTexturePool stoniumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STONIUM);
+        BlockStateModelGenerator.BlockTexturePool stonium_bricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STONIUM_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool mossy_stoniumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MOSSY_STONIUM);
+        BlockStateModelGenerator.BlockTexturePool mossy_stonium_bricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MOSSY_STONIUM_BRICKS);
 
 
+
+        stoniumPool.stairs(ModBlocks.STONIUM_STAIRS);
+        stoniumPool.slab(ModBlocks.STONIUM_SLAB);
+        stoniumPool.button(ModBlocks.STONIUM_BUTTON);
+        stoniumPool.pressurePlate(ModBlocks.STONIUM_PRESSURE_PLATE);
+        stoniumPool.wall(ModBlocks.STONIUM_WALL);
+
+        stonium_bricksPool.stairs(ModBlocks.STONIUM_BRICKS_STAIRS);
+        stonium_bricksPool.slab(ModBlocks.STONIUM_BRICKS_SLAB);
+        stonium_bricksPool.button(ModBlocks.STONIUM_BRICKS_BUTTON);
+        stonium_bricksPool.pressurePlate(ModBlocks.STONIUM_BRICKS_PRESSURE_PLATE);
+        stonium_bricksPool.wall(ModBlocks.STONIUM_BRICKS_WALL);
+
+        mossy_stoniumPool.stairs(ModBlocks.MOSSY_STONIUM_STAIRS);
+        mossy_stoniumPool.slab(ModBlocks.MOSSY_STONIUM_SLAB);
+        mossy_stoniumPool.button(ModBlocks.MOSSY_STONIUM_BUTTON);
+        mossy_stoniumPool.pressurePlate(ModBlocks.MOSSY_STONIUM_PRESSURE_PLATE);
+        mossy_stoniumPool.wall(ModBlocks.MOSSY_STONIUM_WALL);
+
+         mossy_stonium_bricksPool.stairs(ModBlocks.MOSSY_STONIUM_BRICKS_STAIRS);
+         mossy_stonium_bricksPool.slab(ModBlocks.MOSSY_STONIUM_BRICKS_SLAB);
+         mossy_stonium_bricksPool.button(ModBlocks.MOSSY_STONIUM_BRICKS_BUTTON);
+         mossy_stonium_bricksPool.pressurePlate(ModBlocks.MOSSY_STONIUM_BRICKS_PRESSURE_PLATE);
+         mossy_stonium_bricksPool.wall(ModBlocks.MOSSY_STONIUM_BRICKS_WALL);
 
 
     }

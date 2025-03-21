@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "thebeginning:block/mossy_stonium_bricks",
+    "side": "thebeginning:block/mossy_stonium_bricks",
+    "top": "thebeginning:block/mossy_stonium_bricks"
+  }
+}

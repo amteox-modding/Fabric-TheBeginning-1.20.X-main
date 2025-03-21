@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "thebeginning:mossy_stonium_bricks"
+    }
+  },
+  "pattern": [
+    "RR"
+  ],
+  "result": {
+    "item": "thebeginning:mossy_stonium_bricks_pressure_plate"
+  },
+  "show_notification": true
+}

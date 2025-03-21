@@ -39,39 +39,38 @@ public class ModBlocks {
 
     // Wood and Variants
     public static final Block PALE_LOG = registerBlock("pale_log",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).strength(3f).sounds(BlockSoundGroup.WOOD)));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
 
     public static final Block PALE_WOOD = registerBlock("pale_wood",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD).strength(3f).sounds(BlockSoundGroup.WOOD)));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
 
     public static final Block STRIPPED_PALE_LOG = registerBlock("stripped_pale_log",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG).strength(3f).sounds(BlockSoundGroup.WOOD)));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
 
     public static final Block STRIPPED_PALE_WOOD = registerBlock("stripped_pale_wood",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD).strength(3f).sounds(BlockSoundGroup.WOOD)));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
 
     public static final Block PALE_PLANKS = registerBlock("pale_planks",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).strength(3f).sounds(BlockSoundGroup.WOOD)));
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
-    // construction elements
+    // Construction elements
     public static final Block PALE_STAIRS = registerBlock("pale_stairs",
-            new StairsBlock(PALE_PLANKS.getDefaultState(),
-                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
+            new StairsBlock(PALE_PLANKS.getDefaultState(), AbstractBlock.Settings.copy(Blocks.OAK_STAIRS)));
 
     public static final Block PALE_SLAB = registerBlock("pale_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.OAK_SLAB)));
 
     public static final Block PALE_FENCE = registerBlock("pale_fence",
-            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.OAK_FENCE)));
 
     public static final Block PALE_FENCE_GATE = registerBlock("pale_fence_gate",
-            new FenceGateBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque().sounds(BlockSoundGroup.WOOD), WoodType.ACACIA));
+            new FenceGateBlock(AbstractBlock.Settings.copy(Blocks.OAK_FENCE_GATE), WoodType.ACACIA));
 
     public static final Block PALE_DOOR = registerBlock("pale_door",
-            new DoorBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD), BlockSetType.ACACIA));
+            new DoorBlock(AbstractBlock.Settings.copy(Blocks.OAK_DOOR), BlockSetType.ACACIA));
 
     public static final Block PALE_TRAPDOOR = registerBlock("pale_trapdoor",
-            new TrapdoorBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque().sounds(BlockSoundGroup.WOOD), BlockSetType.ACACIA));
+            new TrapdoorBlock(AbstractBlock.Settings.copy(Blocks.OAK_TRAPDOOR), BlockSetType.ACACIA));
 
     public static final Identifier PALE_SIGN_TEXTURE = new Identifier(TheBeginning.MOD_ID, "entity/signs/pale");
     public static final Identifier PALE_HANGING_SIGN_TEXTURE = new Identifier(TheBeginning.MOD_ID, "entity/signs/hanging/pale");
@@ -84,7 +83,7 @@ public class ModBlocks {
     public static final Block HANGING_PALE_SIGN = Registry.register(Registries.BLOCK, new Identifier(TheBeginning.MOD_ID, "pale_hanging_sign"),
             new TerraformHangingSignBlock(PALE_HANGING_SIGN_TEXTURE, PALE_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
     public static final Block WALL_HANGING_PALE_SIGN = Registry.register(Registries.BLOCK, new Identifier(TheBeginning.MOD_ID, "pale_wall_hanging_sign"),
-            new TerraformWallHangingSignBlock(PALE_HANGING_SIGN_TEXTURE,PALE_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
+            new TerraformWallHangingSignBlock(PALE_HANGING_SIGN_TEXTURE, PALE_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
 
     public static final BlockFamily PALE_FAMILY = BlockFamilies.register(ModBlocks.PALE_PLANKS)
             .sign(ModBlocks.STANDING_PALE_SIGN, ModBlocks.WALL_PALE_SIGN)
@@ -92,19 +91,18 @@ public class ModBlocks {
 
     // Redstone
     public static final Block PALE_BUTTON = registerBlock("pale_button",
-            new ButtonBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision().sounds(BlockSoundGroup.WOOD), BlockSetType.IRON, 5, true));
+            new ButtonBlock(AbstractBlock.Settings.copy(Blocks.OAK_BUTTON), BlockSetType.ACACIA, 30, true));
 
     public static final Block PALE_PRESSURE_PLATE = registerBlock("pale_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD), BlockSetType.ACACIA));
+                    AbstractBlock.Settings.copy(Blocks.OAK_PRESSURE_PLATE), BlockSetType.ACACIA));
 
     // Plants
     public static final Block PALE_LEAVES = registerBlock("pale_leaves",
-            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().nonOpaque().sounds(BlockSoundGroup.AZALEA_LEAVES)));
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
 
     public static final Block PALE_SAPLING = registerBlock("pale_sapling",
             new SaplingBlock(new PaleSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
-
 
 
     //YELLOWNESS!
@@ -172,7 +170,7 @@ public class ModBlocks {
 
     // Plants
     public static final Block YELLOWNESS_LEAVES = registerBlock("yellowness_leaves",
-            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().nonOpaque().sounds(BlockSoundGroup.AZALEA_LEAVES)));
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
     public static final Block YELLOWNESS_SAPLING = registerBlock("yellowness_sapling",
             new SaplingBlock(new YellownessSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
@@ -245,9 +243,95 @@ public class ModBlocks {
 
     // Plants
     public static final Block PURPLENESS_LEAVES = registerBlock("purpleness_leaves",
-            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().nonOpaque().sounds(BlockSoundGroup.AZALEA_LEAVES)));
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
     public static final Block PURPLENESS_SAPLING = registerBlock("purpleness_sapling",
             new SaplingBlock(new PurplenessSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+
+
+
+
+    //STONIUM
+
+    public static Block STONIUM = registerBlock("stonium",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static Block MOSSY_STONIUM = registerBlock("mossy_stonium",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static Block STONIUM_BRICKS = registerBlock("stonium_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static Block MOSSY_STONIUM_BRICKS = registerBlock("mossy_stonium_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+
+    public static final Block STONIUM_STAIRS = registerBlock("stonium_stairs",
+            new StairsBlock(STONIUM.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STONIUM_SLAB= registerBlock("stonium_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STONIUM_WALL= registerBlock("stonium_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STONIUM_BUTTON = registerBlock("stonium_button",
+            new ButtonBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision().sounds(BlockSoundGroup.STONE), BlockSetType.IRON, 5, false));
+
+    public static final Block STONIUM_PRESSURE_PLATE = registerBlock("stonium_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS,
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE), BlockSetType.STONE));
+
+
+    public static final Block MOSSY_STONIUM_STAIRS = registerBlock("mossy_stonium_stairs",
+            new StairsBlock(MOSSY_STONIUM.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block MOSSY_STONIUM_SLAB= registerBlock("mossy_stonium_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block MOSSY_STONIUM_WALL= registerBlock("mossy_stonium_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block MOSSY_STONIUM_BUTTON = registerBlock("mossy_stonium_button",
+            new ButtonBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision().sounds(BlockSoundGroup.STONE), BlockSetType.IRON, 5, false));
+
+    public static final Block MOSSY_STONIUM_PRESSURE_PLATE = registerBlock("mossy_stonium_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS,
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE), BlockSetType.STONE));
+    //BRICKS
+
+    public static final Block STONIUM_BRICKS_STAIRS = registerBlock("stonium_bricks_stairs",
+            new StairsBlock(STONIUM.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STONIUM_BRICKS_SLAB= registerBlock("stonium_bricks_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STONIUM_BRICKS_WALL= registerBlock("stonium_bricks_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STONIUM_BRICKS_BUTTON = registerBlock("stonium_bricks_button",
+            new ButtonBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision().sounds(BlockSoundGroup.STONE), BlockSetType.IRON, 5, false));
+
+    public static final Block STONIUM_BRICKS_PRESSURE_PLATE = registerBlock("stonium_bricks_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS,
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE), BlockSetType.STONE));
+
+
+    public static final Block MOSSY_STONIUM_BRICKS_STAIRS = registerBlock("mossy_stonium_bricks_stairs",
+            new StairsBlock(MOSSY_STONIUM.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block MOSSY_STONIUM_BRICKS_SLAB= registerBlock("mossy_stonium_bricks_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block MOSSY_STONIUM_BRICKS_WALL= registerBlock("mossy_stonium_bricks_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block MOSSY_STONIUM_BRICKS_BUTTON = registerBlock("mossy_stonium_bricks_button",
+            new ButtonBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision().sounds(BlockSoundGroup.STONE), BlockSetType.IRON, 5, false));
+
+    public static final Block MOSSY_STONIUM_BRICKS_PRESSURE_PLATE = registerBlock("mossy_stonium_bricks_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS,
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.STONE), BlockSetType.STONE));
 
 
 

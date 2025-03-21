@@ -1,8 +1,7 @@
-// 1.20.2	2025-01-30T21:04:07.221011931	The Beginning/Tags for minecraft:block
-f6bc93edd5327109802b5b911d1501f04597db95 data/minecraft/tags/blocks/fence_gates.json
-ca0bf6baba0b68db2b530dc489b0e3e168ba3417 data/minecraft/tags/blocks/needs_diamond_tool.json
-1ce584debcef2174bd5e8fd6aaff40687a41d4a0 data/minecraft/tags/blocks/logs_that_burn.json
-d46a3a15f73b42d56715e728d35ecdf0287522a7 data/minecraft/tags/blocks/mineable/pickaxe.json
-e363a4fcd16d082959064f4f3a6eaffdce5972d2 data/minecraft/tags/blocks/wooden_fences.json
-673a4039968c72f3de4a385a854481a03b779e0f data/minecraft/tags/blocks/mineable/hoe.json
-966b1a55e69079a7f9b097d60272aabdd48f1f37 data/minecraft/tags/blocks/mineable/axe.json
+// 1.20.2	2025-03-20T21:02:31.377315715	The Beginning/Tags for minecraft:block
+48bc8f287dbeefabecb9e9c7e9fd417280d4ddee data/minecraft/tags/blocks/fence_gates.json
+74e8e14b4d825668ebfc154dd557ac7a6b37a870 data/minecraft/tags/blocks/logs_that_burn.json
+e26ecf7a1b6d6591471dbe85f56d86b055439db6 data/minecraft/tags/blocks/mineable/pickaxe.json
+b07c6d9dbac770416373c1f6986b4b63e5d6b266 data/minecraft/tags/blocks/wooden_fences.json
+4e51a5b719521bef8b456ae3fcd236ac56129766 data/minecraft/tags/blocks/mineable/hoe.json
+74e8e14b4d825668ebfc154dd557ac7a6b37a870 data/minecraft/tags/blocks/mineable/axe.json

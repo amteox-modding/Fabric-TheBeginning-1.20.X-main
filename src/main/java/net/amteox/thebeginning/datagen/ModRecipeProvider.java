@@ -5,6 +5,7 @@ import net.amteox.thebeginning.block.ModBlocks;
 import net.amteox.thebeginning.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
@@ -240,6 +241,148 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         FabricRecipeProvider.createTrapdoorRecipe(ModBlocks.PURPLENESS_TRAPDOOR, Ingredient.ofItems(ModBlocks.PURPLENESS_PLANKS.asItem()))
                 .criterion(hasItem(ModBlocks.PURPLENESS_PLANKS), conditionsFromItem(ModBlocks.PURPLENESS_PLANKS))
                 .offerTo(exporter);
+
+        //STONIUM
+
+        FabricRecipeProvider.createStairsRecipe(ModBlocks.STONIUM_STAIRS, Ingredient.ofItems(ModBlocks.STONIUM.asItem()))
+                .criterion(hasItem(ModBlocks.STONIUM), conditionsFromItem(ModBlocks.STONIUM))
+                .offerTo(exporter);
+
+        FabricRecipeProvider.createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONIUM_SLAB, Ingredient.ofItems(ModBlocks.STONIUM.asItem()))
+                .criterion(hasItem(ModBlocks.STONIUM), conditionsFromItem(ModBlocks.STONIUM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONIUM_WALL)
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModBlocks.STONIUM)
+                .criterion(hasItem(ModBlocks.STONIUM), conditionsFromItem(ModBlocks.STONIUM))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.STONIUM_BUTTON)
+                .input(ModBlocks.STONIUM)
+                .criterion(hasItem(ModBlocks.STONIUM), conditionsFromItem(ModBlocks.STONIUM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.STONIUM_PRESSURE_PLATE)
+                .pattern("RR")
+                .input('R', ModBlocks.STONIUM)
+                .criterion(hasItem(ModBlocks.STONIUM), conditionsFromItem(ModBlocks.STONIUM))
+                .offerTo(exporter);
+
+        //STONIUM BRICKS
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONIUM_BRICKS)
+                .pattern("RR")
+                .pattern("RR")
+                .input('R', ModBlocks.STONIUM)
+                .criterion(hasItem(ModBlocks.STONIUM), conditionsFromItem(ModBlocks.STONIUM))
+                .offerTo(exporter);
+
+
+        FabricRecipeProvider.createStairsRecipe(ModBlocks.STONIUM_BRICKS_STAIRS, Ingredient.ofItems(ModBlocks.STONIUM_BRICKS.asItem()))
+                .criterion(hasItem(ModBlocks.STONIUM_BRICKS), conditionsFromItem(ModBlocks.STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        FabricRecipeProvider.createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONIUM_BRICKS_SLAB, Ingredient.ofItems(ModBlocks.STONIUM_BRICKS.asItem()))
+                .criterion(hasItem(ModBlocks.STONIUM_BRICKS), conditionsFromItem(ModBlocks.STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONIUM_BRICKS_WALL)
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModBlocks.STONIUM_BRICKS)
+                .criterion(hasItem(ModBlocks.STONIUM_BRICKS), conditionsFromItem(ModBlocks.STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.STONIUM_BRICKS_BUTTON)
+                .input(ModBlocks.STONIUM_BRICKS)
+                .criterion(hasItem(ModBlocks.STONIUM_BRICKS), conditionsFromItem(ModBlocks.STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.STONIUM_BRICKS_PRESSURE_PLATE)
+                .pattern("RR")
+                .input('R', ModBlocks.STONIUM_BRICKS)
+                .criterion(hasItem(ModBlocks.STONIUM_BRICKS), conditionsFromItem(ModBlocks.STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        //MOSSY_STONIUM
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_STONIUM)
+                .pattern("RX")
+                .input('R', ModBlocks.STONIUM)
+                .input('X', Blocks.MOSS_BLOCK)
+                .criterion(hasItem(ModBlocks.STONIUM), conditionsFromItem(ModBlocks.STONIUM))
+                .offerTo(exporter);
+
+        FabricRecipeProvider.createStairsRecipe(ModBlocks.MOSSY_STONIUM_STAIRS, Ingredient.ofItems(ModBlocks.MOSSY_STONIUM.asItem()))
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM), conditionsFromItem(ModBlocks.MOSSY_STONIUM))
+                .offerTo(exporter);
+
+        FabricRecipeProvider.createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_STONIUM_SLAB, Ingredient.ofItems(ModBlocks.MOSSY_STONIUM.asItem()))
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM), conditionsFromItem(ModBlocks.MOSSY_STONIUM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_STONIUM_WALL)
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModBlocks.MOSSY_STONIUM)
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM), conditionsFromItem(ModBlocks.MOSSY_STONIUM))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.MOSSY_STONIUM_BUTTON)
+                .input(ModBlocks.MOSSY_STONIUM)
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM), conditionsFromItem(ModBlocks.MOSSY_STONIUM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.MOSSY_STONIUM_PRESSURE_PLATE)
+                .pattern("RR")
+                .input('R', ModBlocks.MOSSY_STONIUM)
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM), conditionsFromItem(ModBlocks.MOSSY_STONIUM))
+                .offerTo(exporter);
+
+
+
+        //MOSSY_STONIUM_BRICKS
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_STONIUM_BRICKS)
+                .pattern("RR")
+                .pattern("RR")
+                .input('R', ModBlocks.MOSSY_STONIUM)
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM), conditionsFromItem(ModBlocks.MOSSY_STONIUM))
+                .offerTo(exporter);
+
+        FabricRecipeProvider.createStairsRecipe(ModBlocks.MOSSY_STONIUM_BRICKS_STAIRS, Ingredient.ofItems(ModBlocks.MOSSY_STONIUM_BRICKS.asItem()))
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM_BRICKS), conditionsFromItem(ModBlocks.MOSSY_STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        FabricRecipeProvider.createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_STONIUM_BRICKS_SLAB, Ingredient.ofItems(ModBlocks.MOSSY_STONIUM_BRICKS.asItem()))
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM_BRICKS), conditionsFromItem(ModBlocks.MOSSY_STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MOSSY_STONIUM_BRICKS_WALL)
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModBlocks.MOSSY_STONIUM_BRICKS)
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM_BRICKS), conditionsFromItem(ModBlocks.MOSSY_STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.MOSSY_STONIUM_BRICKS_BUTTON)
+                .input(ModBlocks.MOSSY_STONIUM_BRICKS)
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM_BRICKS), conditionsFromItem(ModBlocks.MOSSY_STONIUM_BRICKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.MOSSY_STONIUM_BRICKS_PRESSURE_PLATE)
+                .pattern("RR")
+                .input('R', ModBlocks.MOSSY_STONIUM_BRICKS)
+                .criterion(hasItem(ModBlocks.MOSSY_STONIUM_BRICKS), conditionsFromItem(ModBlocks.MOSSY_STONIUM_BRICKS))
+                .offerTo(exporter);
+
+
+
+
+
+
+
 
 
 

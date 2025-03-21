@@ -3,43 +3,70 @@
   "generator": {
     "type": "minecraft:noise",
     "settings": "minecraft:floating_islands",
+    "y_scale": {
+      "type": "minecraft:clamped",
+      "min": -5.0,
+      "max": 20.0,
+      "input": {
+        "type": "minecraft:y_gradient",
+        "from_value": 50.0,
+        "to_value": -50.0,
+        "from_y": 0,
+        "to_y": 128
+      }
+    },
+    "density": {
+      "type": "minecraft:blend_density",
+      "density": {
+        "type": "minecraft:clamped",
+        "min": 45.5,
+        "max": 120.0,
+        "input": {
+          "type": "minecraft:scaled_noise",
+          "noise": "minecraft:erosion",
+          "scale": 60.0,
+          "xz_scale": 50.0,
+          "y_scale": 60.0
+        }
+      }
+    },
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
           "biome": "thebeginning:yellowness_biome",
           "parameters": {
-            "temperature": 0.3,
-            "humidity": 0.3,
-            "continentalness": 0.2,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
+            "temperature": 0.4,
+            "humidity": 0.5,
+            "continentalness": -0.2,
+            "erosion": -0.75,
+            "weirdness": 0.5,
+            "depth": -0.3,
+            "offset": 0.1
           }
         },
         {
           "biome": "thebeginning:pale_garden",
           "parameters": {
-            "temperature": 0.3,
-            "humidity": 0.35,
-            "continentalness": 0.2,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
+            "temperature": 0.2,
+            "humidity": 0.3,
+            "continentalness": -0.3,
+            "erosion": -0.8,
+            "weirdness": 0.6,
+            "depth": -0.4,
+            "offset": 0.2
           }
         },
         {
           "biome": "thebeginning:purpleness_biome",
           "parameters": {
-            "temperature": 0.4,
-            "humidity": 0.2,
-            "continentalness": 0.2,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
+            "temperature": 0.2,
+            "humidity": 0,
+            "continentalness": -0.4,
+            "erosion": -0.85,
+            "weirdness": 0.7,
+            "depth": -0.5,
+            "offset": 0.3
           }
         }
       ]

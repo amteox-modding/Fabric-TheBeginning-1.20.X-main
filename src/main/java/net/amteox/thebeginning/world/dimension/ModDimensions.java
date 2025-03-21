@@ -27,18 +27,18 @@ public class ModDimensions {
         context.register(BEGINNINGDIM_DIM_TYPE, new DimensionType(
                 OptionalLong.of(12000), // fixedTime
                 true, // hasSkylight
-                true, // hasCeiling
+                false, // hasCeiling
                 false, // ultraWarm
                 true, // natural
                 1.0, // coordinateScale
-                false, // bedWorks
+                true, // bedWorks
                 true, // respawnAnchorWorks
-                0, // minY
-                128, // height (updated max Y value from 128 to 256)
+                128, // minY
+                128, // height
                 128, // logicalHeight (height where logic like world generation occurs)
                 BlockTags.INFINIBURN_OVERWORLD, // infiniburn
                 DimensionTypes.OVERWORLD_ID, // effectsLocation
-                1.0f, // ambientLight
+                0.4f, // ambientLight
                 new DimensionType.MonsterSettings(false, false, UniformIntProvider.create(0, 0), 0)));
     }
 }

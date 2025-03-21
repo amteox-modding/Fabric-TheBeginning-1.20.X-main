@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "thebeginning:mossy_stonium_bricks"
+    }
+  ],
+  "result": {
+    "item": "thebeginning:mossy_stonium_bricks_button"
+  }
+}

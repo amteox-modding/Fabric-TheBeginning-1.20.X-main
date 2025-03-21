@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "thebeginning:stonium_bricks"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "item": "thebeginning:stonium_bricks_wall"
+  },
+  "show_notification": true
+}

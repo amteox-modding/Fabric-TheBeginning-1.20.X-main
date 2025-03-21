@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thebeginning:block/stonium_slab"
+    },
+    "type=double": {
+      "model": "thebeginning:block/stonium"
+    },
+    "type=top": {
+      "model": "thebeginning:block/stonium_slab_top"
+    }
+  }
+}

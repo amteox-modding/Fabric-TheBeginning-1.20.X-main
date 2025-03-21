@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "thebeginning:stonium"
+    }
+  },
+  "pattern": [
+    "RR"
+  ],
+  "result": {
+    "item": "thebeginning:stonium_pressure_plate"
+  },
+  "show_notification": true
+}

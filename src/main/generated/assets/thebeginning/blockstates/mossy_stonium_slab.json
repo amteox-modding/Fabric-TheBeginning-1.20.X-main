@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thebeginning:block/mossy_stonium_slab"
+    },
+    "type=double": {
+      "model": "thebeginning:block/mossy_stonium"
+    },
+    "type=top": {
+      "model": "thebeginning:block/mossy_stonium_slab_top"
+    }
+  }
+}

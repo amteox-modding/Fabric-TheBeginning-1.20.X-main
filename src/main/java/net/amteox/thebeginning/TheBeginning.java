@@ -4,6 +4,7 @@ import net.amteox.thebeginning.block.ModBlocks;
 import net.amteox.thebeginning.entity.ModBoats;
 import net.amteox.thebeginning.item.ModItemGroups;
 import net.amteox.thebeginning.item.ModItems;
+import net.amteox.thebeginning.util.ModLootTableModifires;
 import net.amteox.thebeginning.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
@@ -24,6 +25,7 @@ public class TheBeginning implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModLootTableModifires.modifyLootTables();
 
 		registerFlammableBlocks();
 		registerStrippableBlocks();
@@ -31,7 +33,7 @@ public class TheBeginning implements ModInitializer {
 		ModWorldGeneration.generateModWorldGen();
 		ModBoats.registerBoats();
 		CustomPortalBuilder.beginPortal()
-				.frameBlock(Blocks.GLOWSTONE)
+				.frameBlock(ModBlocks.BEGINNIUM_MAGIC_BLOCK)
 				.lightWithFluid(Fluids.WATER)
 				.destDimID(new Identifier(MOD_ID,"beginningdim"))
 				.tintColor(0x00fff)

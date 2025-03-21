@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "thebeginning:block/stonium_bricks",
+    "side": "thebeginning:block/stonium_bricks",
+    "top": "thebeginning:block/stonium_bricks"
+  }
+}

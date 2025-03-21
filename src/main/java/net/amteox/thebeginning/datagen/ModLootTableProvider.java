@@ -67,6 +67,38 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLENESS_TRAPDOOR);
         addDrop(ModBlocks.PURPLENESS_LEAVES, leavesDrops(ModBlocks.PURPLENESS_LEAVES, ModBlocks.PURPLENESS_SAPLING, 0.0625f));
 
+        //STONIUM
+
+        addDrop(ModBlocks.STONIUM);
+        addDrop(ModBlocks.STONIUM_STAIRS);
+        addDrop(ModBlocks.STONIUM_SLAB, slabDrops(ModBlocks.STONIUM_SLAB));
+        addDrop(ModBlocks.STONIUM_BUTTON);
+        addDrop(ModBlocks.STONIUM_PRESSURE_PLATE);
+        addDrop(ModBlocks.STONIUM_WALL);
+
+
+        addDrop(ModBlocks.STONIUM_BRICKS);
+        addDrop(ModBlocks.STONIUM_BRICKS_STAIRS);
+        addDrop(ModBlocks.STONIUM_BRICKS_SLAB, slabDrops(ModBlocks.STONIUM_BRICKS_SLAB));
+        addDrop(ModBlocks.STONIUM_BRICKS_BUTTON);
+        addDrop(ModBlocks.STONIUM_BRICKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.STONIUM_BRICKS_WALL);
+
+        addDrop(ModBlocks.MOSSY_STONIUM);
+        addDrop(ModBlocks.MOSSY_STONIUM_STAIRS);
+        addDrop(ModBlocks.MOSSY_STONIUM_SLAB, slabDrops(ModBlocks.STONIUM_SLAB));
+        addDrop(ModBlocks.MOSSY_STONIUM_BUTTON);
+        addDrop(ModBlocks.MOSSY_STONIUM_PRESSURE_PLATE);
+        addDrop(ModBlocks.MOSSY_STONIUM_WALL);
+
+        addDrop(ModBlocks.MOSSY_STONIUM_BRICKS);
+        addDrop(ModBlocks.MOSSY_STONIUM_BRICKS_STAIRS);
+        addDrop(ModBlocks.MOSSY_STONIUM_BRICKS_SLAB, slabDrops(ModBlocks.MOSSY_STONIUM_BRICKS_SLAB));
+        addDrop(ModBlocks.MOSSY_STONIUM_BRICKS_BUTTON);
+        addDrop(ModBlocks.MOSSY_STONIUM_BRICKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.MOSSY_STONIUM_BRICKS_WALL);
+
+
 
     }
 }

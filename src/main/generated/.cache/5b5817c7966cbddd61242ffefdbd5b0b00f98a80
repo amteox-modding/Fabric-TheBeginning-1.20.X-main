@@ -1,10 +1,10 @@
-// 1.20.2	2025-01-30T21:04:07.223345104	The Beginning/World Gen
+// 1.20.2	2025-03-20T21:02:31.383601056	The Beginning/World Gen
 f463d935e2c8d00779837920fa402cd1e14ea305 data/thebeginning/worldgen/configured_feature/purpleness.json
 daf221c79de6053e6e513a1ba130b9763c62ded4 data/thebeginning/worldgen/configured_feature/beginnium_ore.json
 d3aea57d6c8ccfedd3d37dda2c2ab90b6c9036a3 data/thebeginning/worldgen/placed_feature/yellowness_placed.json
 e6e234342198f103d2f4da1b4bb6e951ce7e5db2 data/thebeginning/worldgen/configured_feature/yellowness.json
-e93232095c2951f0d0e4e6da69441f70c6ad5296 data/thebeginning/worldgen/placed_feature/beginnium_ore_placed.json
-7cf683d03c7c86e25e6904bcde589bdfb9fe8487 data/thebeginning/dimension_type/beginningdim_type.json
+6d00ed98719b00080acf3b1dcf719964f5f02fcd data/thebeginning/worldgen/placed_feature/beginnium_ore_placed.json
+dcece24040e6c5f5e6796c85b8d6125cf8b82656 data/thebeginning/dimension_type/beginningdim_type.json
 84cbd6ba8f360a20e416b90809ba4c5b678536c1 data/thebeginning/worldgen/biome/purpleness_biome.json
 8255039d45049479c97ad04e84f1c331823b7f4c data/thebeginning/worldgen/placed_feature/pale_placed.json
 5104db0fb8a20447e41ad6971d37403e655268d8 data/thebeginning/worldgen/placed_feature/purpleness_placed.json
